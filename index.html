@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h2>Stock Profit & Loss Calculator</h2>
+        <label for="initial-price">
+            Initial Price: <input type="number"  id="initial-price"/>
+        </label>
+
+        <label for="quantityofStocks">
+            Quantity Bought: <input type="number"  id="quantityofStocks"/>
+        </label>
+        <label for="current-price">
+            Current Price: <input type="number"  id="current-price"/>
+        </label>
+
+        <button type="button" id="checkProfitLoss">Check</button>
+        <div id="output">
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
